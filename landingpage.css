@@ -112,7 +112,7 @@ button{
     /* margin-left: 40%; */
 }
 .section3{
-    margin-top: 10em;
+    margin-top: 5em;
     display: flex;
     flex-direction: row;
     margin-left: 20px;
@@ -125,3 +125,57 @@ button{
 #purchase1{
     padding: 4px 16px;
 }
+.section4{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.left-div3{
+    row-gap: 50px;
+    width: 40%;
+    margin-left: 10em;
+}
+#purchase2{
+    padding: 4px 16px;
+}
+.section5{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.left-div4{
+    row-gap: 50px;
+    width: 40%;
+    margin-left: 10em;
+}
+#purchase3{
+    padding: 4px 16px;
+}
+ .section6{
+    background-color: rgb(231, 236, 255);
+    margin-top: 5em;
+    text-align: center;
+    padding: 10px;
+    /* margin-left: 20em;
+    margin-right: 20em;  */
+}
+ .top-div2{
+    margin-left: 20em;
+    margin-right: 20em;
+    padding-bottom: 5px;
+}
+#purchase2{
+    padding: 4px 16px;
+} 
+footer{
+    background-color: rgb(231, 229, 255);
+    display: flex;
+    /* flex-direction: row; */
+     row-gap: 100px;
+    padding-top: 20px;
+} 
+ #purchase4{
+    padding: 4px 16px;
+} 
