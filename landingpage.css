@@ -1,11 +1,11 @@
 *{
-    font-family: verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .nav-list{
     display: flex;
     list-style: none;
     padding: 10px 20px;
-    color: #191970;
+    color: #091133;
     text-align: left;
     gap: 30px;
     font-weight: 400;
@@ -19,10 +19,10 @@
      font-size: 1em;
 }
 #buy-now{
-    background-color: #191970;
+    background-color: #091133;
     color: whitesmoke;
     border: none;
-    padding: 6px 16px;
+    padding: 4px 12px;
     text-align: center;
     font-size: 14px;
 }
@@ -32,7 +32,28 @@ img{
     float: right;
     margin-left: 0%; 
 }
+.first-text{ 
+    margin-right: 100px;
+    padding-top: 100px;
+    padding-left: 20px;
+}
 h2{
-    color: #191970;
-    font-weight: 800;
+    color: #091133;
+}
+p{
+    color: #191970 ;
+}
+button{
+    background-color: #091133;
+    color: whitesmoke;
+    padding: 4px 12px;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+}
+#learn{
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255,.5);
+    color: #091133;
+    border-style: solid ;
 }
