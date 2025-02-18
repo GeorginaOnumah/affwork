@@ -26,23 +26,24 @@
     text-align: center;
     font-size: 14px;
 }
-img{
+.imageone{
+    margin-top: 10px;
     height: 600px;
     width: 500px;
     float: right;
-    margin-left: 0%; 
+    margin-left: 100px;
 }
 .first-text{ 
     margin-right: 100px;
-    padding-top: 60px;
-    padding-left: 20px;
+    margin-top: 80px;
+    margin-left: 20px;
 }
 h2{
     color: #091133;
 }
 p{
     color: #505F98 ;
-    margin-right: 40em;
+    /* margin-right: 40em; */
 }
 button{
     background-color: #091133;
@@ -63,41 +64,64 @@ button{
     height: 33em;
     font-size: large;
 }
-.imgeone{
-    padding-top: 20px;
-    height: 30em;
-    width: 25em;
-}
-.second-text{ 
-    margin-right: 100px;
-    padding-top: 10em;
-    padding-left: 20px;
-}
+
 .imagetwo{
-    padding-top: 1px;
     height: 25em;
     width: 25em;
-}
-.section2{
-    font-size: large;
+    margin-left: 40%;
 }
 #one{
     height: 70px;
     width: 70px;
     padding-top: 1em;
     margin-left: 10px;
-    float: left;
+    
 }
 #two{
     height: 70px;
     width: 70px;
     padding-top: 1em;
     margin-left: 10px;
-    float: left; 
+    
 }
-.subtext1{
+.top-div{ 
+    margin-right: 100px;
+    width: 100%;
+
+}
+.bottom-div{
     display: flex;
     margin-right: 100px;
-    padding-top: 2em;
-    padding-left: 20px;
+    /* padding-top: 2em; */
+    row-gap: 30px;   
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12em;
+    margin-left: 20px;
+}
+.left-div{
+    width: 50%;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.right-div{
+    width: 40%;
+    /* margin-left: 40%; */
+}
+.section3{
+    margin-top: 10em;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.left-div2{
+    row-gap: 50px;
+    width: 40%;
+    margin-left: 10em;
+}
+#purchase1{
+    padding: 4px 16px;
 }
