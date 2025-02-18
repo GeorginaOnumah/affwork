@@ -14,7 +14,7 @@
     display: flex;
      align-items: center;
      justify-content: space-between;
-     padding: 10px 20px;
+     padding: 20px 20px;
      row-gap: 20px;
      font-size: 1em;
 }
@@ -34,14 +34,14 @@ img{
 }
 .first-text{ 
     margin-right: 100px;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-left: 20px;
 }
 h2{
     color: #091133;
 }
 p{
-    color: #191970 ;
+    color: #505F98 ;
     margin-right: 40em;
 }
 button{
@@ -59,7 +59,29 @@ button{
     border-style: solid ;
 }
 .section1{
-    background-color:#E7ECFF;
-    height: 30em;
+    background-color:rgb(231, 236, 255);
+    height: 33em;
+    font-size: large;
 }
-rgb(210, 216, 255)
+.imgeone{
+    padding-top: 20px;
+    height: 30em;
+    width: 25em;
+}
+.second-text{ 
+    margin-right: 100px;
+    padding-top: 10em;
+    padding-left: 20px;
+}
+.imagetwo{
+    padding-top: 1px;
+    height: 25em;
+    width: 25em;
+}
+.section2{
+    font-size: large;
+}
+#one{
+    height: 4px;
+    width: 4px;
+}
