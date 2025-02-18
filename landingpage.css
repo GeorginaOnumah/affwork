@@ -82,6 +82,22 @@ button{
     font-size: large;
 }
 #one{
-    height: 4px;
-    width: 4px;
+    height: 70px;
+    width: 70px;
+    padding-top: 1em;
+    margin-left: 10px;
+    float: left;
+}
+#two{
+    height: 70px;
+    width: 70px;
+    padding-top: 1em;
+    margin-left: 10px;
+    float: left; 
+}
+.subtext1{
+    display: flex;
+    margin-right: 100px;
+    padding-top: 2em;
+    padding-left: 20px;
 }
