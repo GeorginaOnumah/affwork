@@ -1,7 +1,8 @@
 *{
     font-family: 'Times New Roman', Times, serif;
     margin-top: 0%; 
-    margin-left: 0%;  
+    margin-left: 0%; 
+    margin-right: 0%; 
 }
 .nav-list{
     display: flex;
@@ -178,15 +179,17 @@ button{
  #purchase4{
     padding: 4px 16px;
 } 
-footer{
+/* footer{
     background-color: rgb(231, 229, 255);
     display: flex;
      align-items: center;
      justify-content: space-between;
      row-gap: 20px;
      font-size: 1em;
-} 
-#foot{
+}  */
+.foot{
     display: flex;
     flex-direction: row;
+    background-color: rgb(231, 229, 255);
+    height: 30px;
 }
