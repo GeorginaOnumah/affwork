@@ -34,7 +34,7 @@ img{
 }
 .first-text{ 
     margin-right: 100px;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 20px;
 }
 h2{
@@ -42,6 +42,7 @@ h2{
 }
 p{
     color: #191970 ;
+    margin-right: 40em;
 }
 button{
     background-color: #091133;
@@ -57,3 +58,8 @@ button{
     color: #091133;
     border-style: solid ;
 }
+.section1{
+    background-color:#E7ECFF;
+    height: 30em;
+}
+rgb(210, 216, 255)
