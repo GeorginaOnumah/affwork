@@ -1,11 +1,13 @@
 *{
     font-family: 'Times New Roman', Times, serif;
+    margin-top: 0%;
+    margin: 0%;
 }
 .nav-list{
     display: flex;
     list-style: none;
-    padding: 10px 20px;
-    color: #091133;
+    /* padding: 10px 20px; */
+    color: #505F98 ;
     text-align: left;
     gap: 30px;
     font-weight: 400;
@@ -14,7 +16,7 @@
     display: flex;
      align-items: center;
      justify-content: space-between;
-     padding: 20px 20px;
+     padding: 20px 20px ;
      row-gap: 20px;
      font-size: 1em;
 }
@@ -22,7 +24,7 @@
     background-color: #091133;
     color: whitesmoke;
     border: none;
-    padding: 4px 12px;
+    padding: 4px 16px;
     text-align: center;
     font-size: 14px;
 }
@@ -112,7 +114,7 @@ button{
     /* margin-left: 40%; */
 }
 .section3{
-    margin-top: 5em;
+    margin-top: 10em;
     display: flex;
     flex-direction: row;
     margin-left: 20px;
@@ -126,7 +128,7 @@ button{
     padding: 4px 16px;
 }
 .section4{
-    margin-top: 5em;
+    margin-top: 10em;
     display: flex;
     flex-direction: row;
     margin-left: 20px;
@@ -140,7 +142,7 @@ button{
     padding: 4px 16px;
 }
 .section5{
-    margin-top: 5em;
+    margin-top: 10em;
     display: flex;
     flex-direction: row;
     margin-left: 20px;
@@ -155,7 +157,7 @@ button{
 }
  .section6{
     background-color: rgb(231, 236, 255);
-    margin-top: 5em;
+    margin-top: 10em;
     text-align: center;
     padding: 10px;
     /* margin-left: 20em;
@@ -169,13 +171,18 @@ button{
 #purchase2{
     padding: 4px 16px;
 } 
-footer{
-    background-color: rgb(231, 229, 255);
-    display: flex;
-    /* flex-direction: row; */
-     row-gap: 100px;
-    padding-top: 20px;
-} 
  #purchase4{
     padding: 4px 16px;
 } 
+footer{
+    background-color: rgb(231, 229, 255);
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+     row-gap: 20px;
+     font-size: 1em;
+} 
+#foot{
+    display: flex;
+    flex-direction: row;
+}
