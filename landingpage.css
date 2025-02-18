@@ -1,13 +1,38 @@
+*{
+    font-family: verdana, sans-serif;
+}
 .nav-list{
     display: flex;
     list-style: none;
     padding: 10px 20px;
     color: #191970;
     text-align: left;
+    gap: 30px;
+    font-weight: 400;
 }
 .navbar{
     display: flex;
      align-items: center;
      justify-content: space-between;
      padding: 10px 20px;
+     row-gap: 20px;
+     font-size: 1em;
+}
+#buy-now{
+    background-color: #191970;
+    color: whitesmoke;
+    border: none;
+    padding: 6px 16px;
+    text-align: center;
+    font-size: 14px;
+}
+img{
+    height: 600px;
+    width: 500px;
+    float: right;
+    margin-left: 0%; 
+}
+h2{
+    color: #191970;
+    font-weight: 800;
 }
