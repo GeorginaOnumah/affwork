@@ -1,8 +1,8 @@
 *{
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 0%; 
-    margin-left: 0%; 
-    margin-right: 0%; 
+     margin-top: 0%; 
+     margin-left: 0%;
+    /* margin: 0%;  */
 }
 .nav-list{
     display: flex;
@@ -17,7 +17,7 @@
     display: flex;
      align-items: center;
      justify-content: space-between;
-     padding-top: 10px ; 
+     padding: 20px 20px ;
      padding-bottom: 20px;
      row-gap: 20px;
      font-size: 1em;
@@ -35,7 +35,7 @@
 .imageone{
     margin-top: 10px;
     height: 600px;
-    width: 500px;
+    width: 550px;
     float: right;
     margin-left: 100px;
 }
@@ -179,8 +179,14 @@ button{
  #purchase4{
     padding: 4px 16px;
 } 
-/* footer{
-    background-color: rgb(231, 229, 255);
+
+footer {
+    background-color: #eef2ff;
+    padding: 20px 10%;
+    text-align: center;
+}
+
+.footer-container {
     display: flex;
      align-items: center;
      justify-content: space-between;
@@ -188,31 +194,22 @@ button{
      font-size: 1em;
 }  
 .foot{
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(231, 229, 255);
-    height: 30px;
-} */
-footer {
-    background-color: #eef2ff;
-    padding: 20px 10%;
-    text-align: center;
-}
-.footer-container {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 10px;
-    border-bottom: 1px solid #666; /* Blue line */
+    border-bottom: 5px solid #3b82f6; /* Blue line */
 }
+
 .copyright {
     font-size: 14px;
     color: #666;
 }
+
 .footer-title {
     font-size: 20px;
     font-weight: bold;
 }
+
 .purchase-btn {
     background-color: #1e293b;
     color: white;
@@ -222,23 +219,27 @@ footer {
     /* border-radius: 5px; */
     font-size: 14px;
 }
+
 .footer-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
 }
+
 .nav-links a {
     margin: 0 15px;
     text-decoration: none;
     color: #666;
     font-size: 14px;
 }
+
 .social-icons a {
     margin: 0 8px;
     color: #666;
     font-size: 16px;
 }
+
 .social-icons a:hover,
 .nav-links a:hover,
 .purchase-btn:hover {
