@@ -2,7 +2,8 @@
     font-family: 'Times New Roman', Times, serif;
      margin-top: 0%; 
      margin-left: 0%;
-     margin
+     margin-right: 0%;
+
     /* margin: 0%;  */
 }
 .nav-list{
@@ -13,15 +14,19 @@
     text-align: left;
     gap: 30px;
     font-weight: 400;
+    /* margin-left: 0%; */
 }
 .navbar{
     display: flex;
      align-items: center;
      justify-content: space-between;
-     padding: 20px 20px ;
-     padding-bottom: 20px;
+     /* padding: 20px 20px ; */
+     padding-top: 10px;
+     padding-bottom: 5px;
      row-gap: 20px;
      font-size: 1em;
+     margin-left: 0%;
+     padding-left: 0%;
 }
 #buy-now{
     background-color: #091133;
@@ -59,6 +64,7 @@ button{
     text-align: center;
     font-size: 14px;
     border: none;
+    border-radius: 5px;
 }
 #learn{
     margin-left: 10px;
@@ -185,6 +191,8 @@ footer {
     background-color: #eef2ff;
     padding: 20px 10%;
     text-align: center;
+    justify-content: space-between;
+   
 }
 
 .footer-container {
@@ -193,17 +201,22 @@ footer {
      justify-content: space-between;
      row-gap: 20px;
      font-size: 1em;
+     align-items: center;
+     padding-bottom: 10px;
+     color: #091133;
+     border-bottom: 2px solid #091133;
 }  
-.foot{
-    justify-content: space-between;
+/* .foot{ */
+    /* justify-content: space-between;
     align-items: center;
     padding-bottom: 10px;
-    border-bottom: 5px solid #3b82f6; /* Blue line */
-}
+    border-bottom: 5px solid #3b82f6; Blue line */
+/* } */
 
 .copyright {
     font-size: 14px;
-    color: #666;
+    color: #091133;
+    /* color: #666; */
 }
 
 .footer-title {
@@ -214,10 +227,10 @@ footer {
 .purchase-btn {
     background-color: #1e293b;
     color: white;
-    padding: 8px 15px;
+    padding: 6px 13px;
     border: none;
     cursor: pointer;
-    /* border-radius: 5px; */
+    border-radius: 5px; 
     font-size: 14px;
 }
 
@@ -231,13 +244,13 @@ footer {
 .nav-links a {
     margin: 0 15px;
     text-decoration: none;
-    color: #666;
+    color: #091133;
     font-size: 14px;
 }
 
 .social-icons a {
     margin: 0 8px;
-    color: #666;
+    color: #091133;
     font-size: 16px;
 }
 
