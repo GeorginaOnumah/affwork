@@ -3,6 +3,8 @@
   margin-top: 0%;
   margin-left: 0%;
   margin-right: 0%;
+  padding-left: 2px;
+  padding-right: 2px;
 
   /* margin: 0%;  */
 }
@@ -44,12 +46,12 @@
   font-size: 14px;
   width: 100px;
   height: 25px;
-  margin-right: 1%;
+  margin-right: 3%;
 }
 .imageone {
   margin-top: 10px;
-  height: 600px;
-  width: 550px;
+  height: 530px;
+  width: 530px;
   float: right;
   margin-left: 100px;
 }
